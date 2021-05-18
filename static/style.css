@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+     margin: 0;
+     box-sizing: border-box;
+     padding: 0;
+     /* font-family: 'Roboto Mono', monospace; */
+     /* font-family: 'Roboto Mono', monospace; */
+     font-family: 'Roboto Mono', monospace;
+     color: black;
+}
+
+#logo{
+     display: flex;
+     color: #00ff08;
+     align-items: center;
+     margin: 0 14px;
+     font-size: 15px;
+     margin-right: 63px;
+}
+#logo img{
+     height: 28px;
+
+}
+#navbar{
+     background-color: rgb(151 72 210 / 86%);
+     padding: 12px 14px;
+}
+
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+     /* justify-content: center; */
+     align-items: center;
+}
+
+#navbar li{
+     list-style: none;
+}
+
+#navbar li a{
+     text-decoration: none;
+     padding:  8px 12px;
+     color: white;
+}
+#navbar li a:hover{
+     text-decoration: none;
+     padding:  5px 18px;
+     color: rgb(241, 48, 0);
+     background-color: rgb(84, 228, 197);
+     box-sizing: border-box;
+     border: 1px;
+     border-radius: 20px;
+     font-style: bold;
+}
+
+#welcomeMsg{
+     color: rgb(154 247 204);
+}
+
+#price{
+     font-size: 30px;
+     color: violet;
+}
+#introSection{
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: center / cover no-repeat url("/static/bg.jpg");
+     height: 300px;
+     background-color: red;
+     font-family: 'Arvo', serif;
+     font-size: 2.2rem;
+     flex-direction: column;
+     padding-bottom: 80px;
+}
+
+#missionSection{
+     /* background-color: #dff9f7d4; */
+     height: 312px;
+     width: 72%;
+     margin: 0px auto;
+}
+
+#missionSection h2{
+     font-family: 'Bebas Neue', cursive;
+     /* text-align: center; */
+     color: black;
+     padding-top: 18px;
+     margin: 0px 408px;
+     font-weight: bold;
+     font-size: 32px;
+}
+
+.card{
+     background-color: #d1fc6d;
+     color: black;
+     border: 2px solid black;
+     border-radius: 10px;
+     width: 28%;
+     margin: 15px 22px;
+     height: 190px;
+     display: inline-block;
+}
+
+.card h3{
+     text-align: center;
+     margin: 12px;
+}
+
+.card-box{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.card-img{
+     height: 108px;
+     padding: 0 14px;
+     margin: 5px 17px;
+}
+.card-img img{
+     height: inherit;
+}
+
+.card-content{
+     padding: 0 10px 0px 0px ;
+}
+.card-content p{
+     font-size: 14px;
+}
+
+#sponsorsSection{
+     background-color: #00ff7e;
+     height: 268px;
+}
+
+#sponsorsSection h2{
+     text-align: center;
+     color: black;
+     padding-top: 18px;
+}
+
+.spImg{
+     height: 80%;
+     margin: 20px;
+}
+
+#sponsors{
+     height: 198px;
+     max-width: 973px;
+     margin: 0px 0px 0px 200px;
+}
+
+#footer{
+     background-color: black;
+     display: flex;
+     height: 45px;
+     color: white;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+}
