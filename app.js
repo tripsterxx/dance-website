@@ -52,5 +52,5 @@ app.post('/contact', (req, res)=>{
 
 // START THE SERVER
 app.listen(port, ()=>{
-     console.log(`The application started successfully on port ${port}`);
+     console.log(`The application started successfully on port ${port} \nDont forget to start "mongod" \n`);
  });
