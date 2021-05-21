@@ -33,6 +33,11 @@ app.get('/', (req, res)=>{
     res.status(200).render('home.pug', params);
 });
 
+app.get('/login', (req, res)=>{
+    const params = { }
+    res.status(200).render('login1.pug', params);
+});
+
 app.get('/contact', (req, res)=>{
     const params = { }
     res.status(200).render('contact.pug', params);

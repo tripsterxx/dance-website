@@ -1,0 +1,33 @@
+//- extends base.pug
+//- block style 
+//-      style 
+//-           include ../static/login_index.css 
+
+//- block content 
+//-      div.container 
+//-           h1 Log In 
+
+//-           div.box 
+//-                input(type="email" name= "email" id= "email" placeholder="Enter your E-mail here")
+//-           div.box 
+//-                input(type="password" name= "password" id= "password" placeholder="Enter your password here")
+//-           div.submit 
+//-                button(class="btn")
+//-                     | Sign-in 
+
+doctype html 
+html
+     head 
+          title Login to ADA
+          style 
+               include ../static/login_index.css 
+          body 
+               div.container 
+                    h1 Log In 
+                    div.box 
+                         input(type="email" name="email" id="email" placeholder="Enter your email here")
+                    div.box 
+                         input(type="password" name="password" id="password" placeholder="enter your password here")
+                    div.submit 
+                         button(class = "btn")
+                              |sign in
