@@ -47,6 +47,7 @@
      padding:  8px 12px;
      color: white;
 }
+
 #navbar li a:hover{
      text-decoration: none;
      padding:  5px 18px;
@@ -73,7 +74,7 @@
      align-items: center;
      background: center / cover no-repeat url("/static/bg.jpg");
      height: 300px;
-     background-color: red;
+     /* background-color: red; */
      font-family: 'Arvo', serif;
      font-size: 2.2rem;
      flex-direction: column;
@@ -92,7 +93,7 @@
      /* text-align: center; */
      color: black;
      padding-top: 18px;
-     margin: 0px 408px;
+     margin: 0px 382px;
      font-weight: bold;
      font-size: 32px;
 }
@@ -136,7 +137,7 @@
 }
 
 #sponsorsSection{
-     background-color: #00ff7e;
+     background-color: #b2f2ff8f;
      height: 268px;
 }
 

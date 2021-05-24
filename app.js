@@ -35,7 +35,7 @@ app.get('/', (req, res)=>{
 
 app.get('/login', (req, res)=>{
     const params = { }
-    res.status(200).render('login1.pug', params);
+    res.status(200).render('login.pug', params);
 });
 
 app.get('/contact', (req, res)=>{
